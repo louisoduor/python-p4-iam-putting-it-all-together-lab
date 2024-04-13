@@ -1,5 +1,6 @@
 import pytest
 from sqlalchemy.exc import IntegrityError
+from flask_restful import Resource
 
 from app import app
 from models import db, Recipe
